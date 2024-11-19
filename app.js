@@ -46,14 +46,24 @@ app.get("/", (req, res) => {
 
 app.get("/bacheca", (req, res) => {
   const titleFilter = req.query.title;
-  let newPostList;
+  const hashtagFilter = req.query.hashtag;
+  let newPostList = postList;
 
   if (titleFilter) {
     newPostList = postList.filter((post) =>
       post.titolo.toLowerCase().includes(titleFilter.toLowerCase())
     );
-  } else {
-    newPostList = postList;
+  }
+  if (hashtagFilter) {
+    newPostList = newPostList.filter((post) => {
+      let hashtagIncluded = false;
+      post.tags.forEach((hashtag) => {
+        if (hashtag.toLowerCase().includes(hashtagFilter.toLowerCase())) {
+          hashtagIncluded = true;
+        }
+      });
+      return hashtagIncluded;
+    });
   }
 
   res.json({ newPostList, listLength: newPostList.length });
