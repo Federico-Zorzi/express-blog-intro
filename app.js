@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/bacheca", (req, res) => {
-  res.json(postList);
+  res.json({ postList, listLength: postList.length });
 });
 
 app.listen(port, () => {

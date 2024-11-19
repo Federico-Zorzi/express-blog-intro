@@ -10,4 +10,5 @@ Creiamo il nostro blog personale e giorno dopo giorno lo potremo arricchire con 
     Creiamo poi una rotta /bacheca che restituisca un oggetto json con la lista dei post e il conteggio, partendo da un array.
     Configuriamo gli asset statici sull’applicazione in modo che si possano visualizzare le immagini associate ad ogni post.
 
-Testare le chiamate su Postman!Buon lavoro!
+Testare le chiamate su Postman!
+Buon lavoro!
