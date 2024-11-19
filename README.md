@@ -1,6 +1,7 @@
 Ciao Ragazzi,
 esercizio di oggi: express-blog-intro
 nome repo: express-blog-intro
+
 Esercizio
 Creiamo il nostro blog personale e giorno dopo giorno lo potremo arricchire con nuove funzionalità sulla base di quello che impareremo.
 
