@@ -6,31 +6,31 @@ const postList = [
   {
     titolo: "ciambellone",
     contenuto: "plumcake a forma di ciambellone",
-    immagine: "http://localhost:3000/imgs/ciambellone.jpeg",
+    immagine: "/images/ciambellone.jpeg",
     tags: ["Dolci", "Colazione", "Dessert", "Ciambella"],
   },
   {
     titolo: "cracker barbabietola",
     contenuto: "cracker al gusto di barbabietola",
-    immagine: "http://localhost:3000/imgs/cracker_barbabietola.jpeg",
+    immagine: "/images/cracker_barbabietola.jpeg",
     tags: ["Salato", "HealthySnacks", "Barbabietola", "NaturalIngredients"],
   },
   {
     titolo: "pane fritto dolce",
     contenuto: "pane fritto dolce",
-    immagine: "http://localhost:3000/imgs/pane_fritto_dolce.jpeg",
+    immagine: "/images/pane_fritto_dolce.jpeg",
     tags: ["Dolci", "Colazione", "Dessert", "HomemadeDesserts"],
   },
   {
     titolo: "pasta barbabietola",
     contenuto: "pasta condita con la barbabietola",
-    immagine: "http://localhost:3000/imgs/pasta_barbabietola.jpeg",
+    immagine: "/images/pasta_barbabietola.jpeg",
     tags: ["Salato", "Pranzo", "Barbabietola", "ItalianFood", "PastaLovers"],
   },
   {
     titolo: "torta paesana",
     contenuto: "torta paesana",
-    immagine: "http://localhost:3000/imgs/torta_paesana.jpeg",
+    immagine: "/images/torta_paesana.jpeg",
     tags: ["Dolci", "Spuntino", "Dessert", "TortaPaesana", "RicetteDellaNonna"],
   },
 ];
